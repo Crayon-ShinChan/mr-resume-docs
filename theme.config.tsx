@@ -15,7 +15,8 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.gg/A7pBTZjFjF",
   },
-  docsRepositoryBase: "https://github.com/Crayon-ShinChan/mr-resume-docs",
+  docsRepositoryBase:
+    "https://github.com/Crayon-ShinChan/mr-resume-docs/tree/main",
   footer: {
     text: "M.R. Resume Documentation",
   },
