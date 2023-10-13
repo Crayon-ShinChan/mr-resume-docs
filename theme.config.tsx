@@ -1,8 +1,14 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import Image from "next/image";
 
 const config: DocsThemeConfig = {
-  logo: <span>M.R. Resume</span>,
+  logo: (
+    <div className="flex gap-x-3 items-center">
+      <Image src="/banner-rounded.png" alt="" height={20} width={48} />
+      <span className="font-bold">Resume</span>
+    </div>
+  ),
   project: {
     link: "https://github.com/Crayon-ShinChan/mr-resume",
   },
