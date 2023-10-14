@@ -2,7 +2,23 @@
   "index": "Introduction",
   "get-started": "Get Started",
   "roadmap": "Roadmap",
-  "advanced": "Advanced (A Folder)",
+  "-": {
+    "type": "separator",
+    "title": "Guide"
+  },
+  "--": {
+    "type": "separator",
+    "title": "Design"
+  },
+  "design-principles": "Design Principles",
+  "showcases": {
+    "title": "Showcases",
+    "type": "page",
+    "theme": {
+      "layout": "full",
+      "typesetting": "article"
+    }
+  },
   "about": {
     "title": "About",
     "type": "page"

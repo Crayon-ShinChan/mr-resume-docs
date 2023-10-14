@@ -34,6 +34,14 @@ const config: DocsThemeConfig = {
       <link rel="icon" href="./favicon.ico" />
     </>
   ),
+  banner: {
+    key: "1.0 development",
+    text: (
+      <a href="https://mr-resume.com/roadmap" target="_blank">
+        🧑‍💻 M.R. Resume v1.0 is in development. Check our roadmap →
+      </a>
+    ),
+  },
 };
 
 export default config;
